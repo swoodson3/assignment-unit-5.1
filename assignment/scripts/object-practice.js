@@ -53,6 +53,13 @@ console.log('***** Object Practice *****')
   - Console.log your updated shoe count. 
 */
 
+console.log('current shoe count', me.shoeCount);
+me.shoeCount += 1;
+console.log('updated shoe count', me.shoeCount);
+
+
+
+
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object

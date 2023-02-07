@@ -18,7 +18,7 @@ console.log('***** Object Practice *****')
   favThreeFoods: ['Ribs', 'Chinese', 'Pizza'],
 };
   
-  console.log('A little about me:', me);
+  /*console.log('A little about me:', me);*/
 
 
 
@@ -67,3 +67,6 @@ console.log('updated shoe count', me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favColor = 'orange';
+console.log(me);
